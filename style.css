@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(246, 134, 125);
+    background-image: url("bg.png");
+    background-repeat: repeat;
+    background-size: 400px 300px;
+}
+
+.links{
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 25px;
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    font-family: bradley hand, cursive;
+    color: white;
+}
+
+.links ul li a:hover{
+    text-decoration: none;
+    
+    background-color: rgb(255, 187, 182);
+}
+.image {
+  float: right;
+}
+
+.text {
+    font-family: bradley hand, cursive;
+    color: white;
+    margin: 50px;
+    font-size: 100px;
+    background-color: rgb(255, 187, 182);
+    float:left;
+}
+
+.text_two {
+    font-family: bradley hand, cursive;
+    color: white;
+    font-size: 50px;
+    background-color: rgb(255, 187, 182);
+    float:left;
+}
